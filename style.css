@@ -1,15 +1,89 @@
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
   background: #00081B;
   color: white;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #00081B, #020d2e);
   text-align: center;
-  padding: 40px;
 }
 
-h1 {
-  font-size: 42px;
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 
+.tagline {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.cta-btn {
+  background: #ffffff;
+  color: #00081B;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #dddddd;
+}
+
+/* SECTIONS */
 section {
-  margin-top: 40px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  background: #020d2e;
+}
+
+.project-card {
+  background: #0a1a4a;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* CONTACT */
+.contact {
+  background: #00081B;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  font-size: 14px;
+  opacity: 0.6;
 }
